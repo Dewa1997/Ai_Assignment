@@ -1,0 +1,106 @@
+/* Basic styling for the body and container */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+/* Styling for the ontology container */
+.ontology-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.class-list {
+    width: 30%;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    max-height: 80vh;
+}
+
+.class-list h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+ul li {
+    padding: 12px;
+    margin: 8px 0;
+    background-color: #f0f8ff;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+ul li:hover {
+    background-color: #80d8ff;
+    transform: scale(1.05);
+}
+
+.annotations {
+    width: 65%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: auto;
+    min-height: 300px;
+}
+
+#annotations-container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Style the list and make it look more interactive */
+li:hover {
+    background-color: #e0f7fa;
+    cursor: pointer;
+    transform: scale(1.02);
+}
