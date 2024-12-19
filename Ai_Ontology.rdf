@@ -1,0 +1,629 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9/"
+     xml:base="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-9="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9">
+        <rdfs:comment xml:lang="en">This project will teach you different topics of Physics</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#actsOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#actsOn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Force"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#causes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#causes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Force"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Acceleration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#connectsTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#connectsTo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_Second_Law_of_Motion_(F_=_ma)"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Acceleration"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Force"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#dependsOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#dependsOn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Acceleration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#exampleApplication -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#exampleApplication">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_Second_Law_of_Motion_(F_=_ma)"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#exampleScenario -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#exampleScenario">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_First_Law_of_Motion_(Inertia)"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_Second_Law_of_Motion_(F_=_ma)"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_Third_Law_of_Motion_(Action_and_Reaction)"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#experiences -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#experiences">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Force"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#explains -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#explains">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_First_Law_of_Motion_(Inertia)"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_Second_Law_of_Motion_(F_=_ma)"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_Third_Law_of_Motion_(Action_and_Reaction)"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Force"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#hasDefinition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#hasDefinition">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_First_Law_of_Motion_(Inertia)"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_Second_Law_of_Motion_(F_=_ma)"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_Third_Law_of_Motion_(Action_and_Reaction)"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#hasDirection -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#hasDirection">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Acceleration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Force"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#hasDisplacement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#hasDisplacement">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Motion"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#hasFormula -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#hasFormula">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_Second_Law_of_Motion_(F_=_ma)"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#hasMagnitude -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#hasMagnitude">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Force"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#hasUnit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#hasUnit">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Acceleration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Force"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#hasValue -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#hasValue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Acceleration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Force"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#hasVelocity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#hasVelocity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Motion"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#reciprocalAction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#reciprocalAction">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_Third_Law_of_Motion_(Action_and_Reaction)"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Force"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#resultOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#resultOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Acceleration"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Force"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Acceleration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Acceleration"/>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Force -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Force"/>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Gravitational_Force -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Gravitational_Force">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Force"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Mass -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Mass"/>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Motion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Motion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Normal_Force -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Normal_Force">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Force"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_law -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_law"/>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_First_Law_of_Motion_(Inertia) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_First_Law_of_Motion_(Inertia)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_law"/>
+        <rdfs:comment>&quot;The class representing Newton’s First Law of Motion, also known as the Law of Inertia, which describes the behavior of objects in the absence of external forces.&quot;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_Second_Law_of_Motion_(F_=_ma) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_Second_Law_of_Motion_(F_=_ma)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_law"/>
+        <rdfs:comment>The class representing Newton’s Second Law, which relates force, mass, and acceleration in a mathematical relationship.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_Third_Law_of_Motion_(Action_and_Reaction) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_Third_Law_of_Motion_(Action_and_Reaction)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_law"/>
+        <rdfs:comment>The class representing Newton’s Third Law of Motion, which asserts that forces always act in pairs—action and reaction forces are equal in magnitude and opposite in direction.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#A_car_at_rest_remains_at_rest_until_a_force_is_applied. -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#A_car_at_rest_remains_at_rest_until_a_force_is_applied.">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_First_Law_of_Motion_(Inertia)"/>
+        <untitled-ontology-9:exampleScenario rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#A_car_at_rest_remains_at_rest_until_a_force_is_applied."/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Acceleration -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Acceleration">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Acceleration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Force -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Force">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Force"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Gravitational_Force -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Gravitational_Force">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Gravitational_Force"/>
+        <untitled-ontology-9:actsOn rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#5_kg_Mass"/>
+        <untitled-ontology-9:hasDirection rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Toward_the_center_of_the_Earth"/>
+        <untitled-ontology-9:hasUnit rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Kilogram -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Kilogram">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Mass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#LinearMotion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#LinearMotion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Motion"/>
+        <untitled-ontology-9:hasDirection rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#North"/>
+        <untitled-ontology-9:hasDisplacement rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#100_meters"/>
+        <untitled-ontology-9:hasUnit rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#km/h"/>
+        <untitled-ontology-9:hasVelocity rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#60_km/h"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Linear_Motion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Linear_Motion">
+        <rdfs:comment xml:lang="en">An individual representing linear motion (motion along a straight line).</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Mass -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Mass">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Mass"/>
+        <untitled-ontology-9:connectsTo rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Acceleration"/>
+        <untitled-ontology-9:connectsTo rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Force"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_law"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Normal_Force -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Normal_Force">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Normal_Force"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#North -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#North">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Motion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Toward_the_center_of_the_Earth -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Toward_the_center_of_the_Earth">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Gravitational_Force"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#10_N_Force -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#10_N_Force">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Force"/>
+        <untitled-ontology-9:actsOn rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#5_kg_Mass"/>
+        <untitled-ontology-9:hasMagnitude rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#10_N_Force"/>
+        <untitled-ontology-9:hasUnit rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton"/>
+        <rdfs:comment xml:lang="en">A specific instance of a Force with a magnitude of 10 Newtons.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#100_meters -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#100_meters">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Motion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#5_Kg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#5_Kg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Mass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#5_kg_Mass -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#5_kg_Mass">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Mass"/>
+        <untitled-ontology-9:experiences rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#10_N_Force"/>
+        <untitled-ontology-9:hasUnit rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Kilogram"/>
+        <untitled-ontology-9:hasValue rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#5_Kg"/>
+        <rdfs:comment xml:lang="en">An individual with a mass of 5 kilograms</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#60_km/h -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#60_km/h">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Motion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#9.8_m/s² -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#9.8_m/s²">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Acceleration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#9.8_m/s²_Acceleration -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#9.8_m/s²_Acceleration">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Acceleration"/>
+        <untitled-ontology-9:hasUnit rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#m/s²"/>
+        <untitled-ontology-9:hasValue rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#9.8_m/s²"/>
+        <untitled-ontology-9:resultOf rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Gravitational_Force"/>
+        <rdfs:comment xml:lang="en">An individual acceleration example representing the acceleration due to gravity on Earth.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#A_10_N_force_applied_to_a_2_kg_object_results_in_an_acceleration_of_5_m/s². -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#A_10_N_force_applied_to_a_2_kg_object_results_in_an_acceleration_of_5_m/s².">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_Second_Law_of_Motion_(F_=_ma)"/>
+        <untitled-ontology-9:exampleScenario rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#A_10_N_force_applied_to_a_2_kg_object_results_in_an_acceleration_of_5_m/s²."/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_Law -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_Law">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_law"/>
+        <untitled-ontology-9:explains rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Force"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton’s_First_Law_of_Motion_(Inertia) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton’s_First_Law_of_Motion_(Inertia)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_First_Law_of_Motion_(Inertia)"/>
+        <rdfs:comment xml:lang="en">This individual represents the First Law of Motion, which states that an object will remain at rest or continue in uniform motion unless acted upon by an external force.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton’s_Second_Law_of_Motion_(F_=_ma) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton’s_Second_Law_of_Motion_(F_=_ma)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_Second_Law_of_Motion_(F_=_ma)"/>
+        <untitled-ontology-9:connectsTo rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Acceleration"/>
+        <untitled-ontology-9:connectsTo rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Force"/>
+        <untitled-ontology-9:connectsTo rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Mass"/>
+        <untitled-ontology-9:explains rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Force"/>
+        <rdfs:comment xml:lang="en">This individual represents Newton&apos;s Second Law, which describes the relationship between force, mass, and acceleration. The law is expressed as F = ma (Force equals mass times acceleration).</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton’s_Third_Law_of_Motion_(Action_and_Reaction) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton’s_Third_Law_of_Motion_(Action_and_Reaction)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_Third_Law_of_Motion_(Action_and_Reaction)"/>
+        <untitled-ontology-9:reciprocalAction rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Force"/>
+        <rdfs:comment xml:lang="en">This individual represents Newton&apos;s Third Law, which states that for every action, there is an equal and opposite reaction.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#When_you_push_against_a_wall,_the_wall_pushes_back_with_an_equal_force. -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#When_you_push_against_a_wall,_the_wall_pushes_back_with_an_equal_force.">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Newton&apos;s_Third_Law_of_Motion_(Action_and_Reaction)"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#km/h -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#km/h">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Motion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#m/s² -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#m/s²">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Acceleration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Acceleration">
+        <rdfs:comment>The class representing acceleration, which is a vector quantity that describes the rate of change of velocity in Newton’s Second Law</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Force">
+        <rdfs:comment xml:lang="en">The class representing the concept of force in Newton’s Laws of Motion, including the magnitude and direction.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/akashkibehan/ontologies/2024/11/untitled-ontology-9#Gravitational_Force">
+        <rdfs:comment xml:lang="en">The gravitational force acting on an object due to the mass of the Earth or another celestial body.</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
